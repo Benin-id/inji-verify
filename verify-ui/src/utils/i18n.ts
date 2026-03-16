@@ -15,18 +15,10 @@ import { storage } from "./storage";
 import { LanguageObject } from "../types/data-types";
 import { iso6393, Language } from "iso-639-3";
 
-const resources = { en, ta, kn, hi, fr, ar, pt, es, km };
+const resources = {fr};
 
 export const LanguagesSupported: LanguageObject[] = [
-  { label: "English", value: "en" },
-  { label: "Português", value: "pt" },
-  { label: "தமிழ்", value: "ta" },
-  { label: "ಕನ್ನಡ", value: "kn" },
-  { label: "हिंदी", value: "hi" },
-  { label: "Français", value: "fr" },
-  { label: "عربي", value: "ar" },
-  { label: "español", value: "es" },
-  { label: "ខ្មែរ", value: "km" },
+  { label: "Français", value: "fr" }
 ];
 
 export function normalizeLanguageCode(lang: string | undefined | null): string {

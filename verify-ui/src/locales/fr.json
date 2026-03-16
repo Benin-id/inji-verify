@@ -13,7 +13,7 @@
     "description": "Vérifiez sans effort les informations d'identification avec Inji Verify ! "
   },
   "Tab": {
-    "upload": "Télécharger le code QR",
+    "upload": "Importer le code QR",
     "scan": "Scanner le code QR",
     "VP_Verification": "Vérification du vice-président",
     "ble": "BLE"
@@ -72,7 +72,7 @@
     },
     "UPLOAD": {
       "QrCodePrompt": {
-        "label": "Télécharger le code QR",
+        "label": "Importer le code QR",
         "description": "Téléchargez un fichier contenant un code QR"
       },
       "Verifying": {
