@@ -15,7 +15,7 @@
   "Tab": {
     "upload": "Importer le code QR",
     "scan": "Scanner le code QR",
-    "VP_Verification": "Vérification du vice-président",
+    "VP_Verification": "Vérification du VP",
     "ble": "BLE"
   },
   "Upload": {
